@@ -1,13 +1,15 @@
 package com.university.student.dto;
 
 import java.util.Date;
+import java.util.Set;
+
+import com.university.shared.entity.CourseEntity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
 public class StudentDetailsDTO {
 	
@@ -17,4 +19,5 @@ public class StudentDetailsDTO {
 	String phone;
 	String Address;
 	Date created_dt;
+	Set<CourseEntity> courses;
 }

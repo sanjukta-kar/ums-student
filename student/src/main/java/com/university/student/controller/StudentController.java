@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.university.student.dto.StudentDetailsDTO;
-import com.university.student.entity.StudentEntity;
+import com.university.shared.entity.StudentEntity;
 import com.university.student.service.StudentService;
 
 @RestController("/student")

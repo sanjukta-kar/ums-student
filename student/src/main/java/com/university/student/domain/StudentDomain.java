@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.university.student.dto.StudentDetailsDTO;
-import com.university.student.entity.StudentEntity;
+import com.university.shared.entity.StudentEntity;
 import com.university.student.repository.StudentRepository;
 import com.university.student.service.StudentMapper;
 
